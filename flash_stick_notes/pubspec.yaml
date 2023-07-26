@@ -1,7 +1,7 @@
 name: flash_stick_notes
 description: A modern stick note.
 version: 0.0.1
-
+publish_to: "none"
 environment:
   sdk: '>=3.0.0 <4.0.0'
 
@@ -31,15 +31,29 @@ dependencies:
   drift_db_viewer: ^2.0.0
   rxdart: ^0.27.7
   flutter_quill:
-    path: package/flutter-quill
+    git:
+      url: https://github.com/TheHeBoy/flutter-quill.git
+      ref: 1.0.0.0
   flutter_quill_extensions:
-    path: package/flutter-quill/flutter_quill_extensions
+    git:
+      url: https://github.com/TheHeBoy/flutter-quill.git
+      path: flutter_quill_extensions
+      ref: 1.0.0.0
 
 dependency_overrides:
+#  flutter_quill:
+#    path: package/flutter-quill
+#  flutter_quill_extensions:
+#    path: package/flutter-quill/flutter_quill_extensions
   flutter_quill:
-    path: package/flutter-quill
+    git:
+      url: https://github.com/TheHeBoy/flutter-quill.git
+      ref: 1.0.0.0
   flutter_quill_extensions:
-    path: package/flutter-quill/flutter_quill_extensions
+    git:
+      url: https://github.com/TheHeBoy/flutter-quill.git
+      path: flutter_quill_extensions
+      ref: 1.0.0.0
 
 dev_dependencies:
   drift_dev: ^2.8.2
@@ -48,12 +62,10 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 
-
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
-
 
   fonts:
     - family: MiSans
