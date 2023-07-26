@@ -18,8 +18,8 @@ class SettingToolBarLogic extends GetxController {
   }
 
   updateOrder(int oldIndex,int newIndex){
-    var oldToolBar = mapButtons.value.keys.where((element) => element.order == oldIndex).single;
-    var newToolBar = mapButtons.value.keys.where((element) => element.order == newIndex).single;
+    var oldToolBar = mapButtons.keys.where((element) => element.order == oldIndex).single;
+    var newToolBar = mapButtons.keys.where((element) => element.order == newIndex).single;
 
     db.updateAppToolBar(oldToolBar.copyWith(order: newIndex));
     db.updateAppToolBar(newToolBar.copyWith(order: oldIndex));
