@@ -1,7 +1,7 @@
 # Flash Sticky Notes
 Flash Sticky Notes 是一个简单易用的桌面便利贴。
 
-![image](https://github.com/TheHeBoy/FlutterStickyNotes/blob/main/image/image-20230726222350619.png) ![image](https://github.com/TheHeBoy/FlutterStickyNotes/blob/main/image/image-20230726222426970.png)
+![image](image/image-20230726222350619.png) ![image](image/image-20230726222426970.png)
 
 # 功能
 - 按住 Alt  + F1 可以显示和隐藏窗口
