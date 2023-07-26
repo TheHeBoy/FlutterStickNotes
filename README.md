@@ -12,4 +12,5 @@ Flash Sticky Notes 是一个简单易用的桌面便利贴。
 - 图片复制
 
 # 下载
-[Flash Sticky Notes]([link](**https://github.com/TheHeBoy/FlutterStickyNotes/releases/download/V0.0.1/FlashStickyNotesV0.0.1.zip**))
+[Flash Sticky Notes](https://github.com/TheHeBoy/FlutterStickyNotes/releases/download/V0.0.1/FlashStickyNotesV0.0.1.zip)
+
