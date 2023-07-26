@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:window_manager/window_manager.dart';
-import 'package:flash_stick_notes/features/sticky_note/logic.dart';
 
 class AppWindow {
   AppWindow._();
@@ -20,7 +18,7 @@ class AppWindow {
 
     windowManager.waitUntilReadyToShow(windowOptions, () async {
       // await windowManager.maximize();
-      await windowManager.setAlignment(Alignment.center);
+      await windowManager.setAlignment(Alignment.topRight);
       // await windowManager.setAlwaysOnBottom(true);
       await windowManager.show();
       // await windowManager.focus();

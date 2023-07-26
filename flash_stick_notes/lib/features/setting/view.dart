@@ -1,13 +1,11 @@
 import 'dart:convert';
 
-import 'package:drift_db_viewer/drift_db_viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hotkey_manager/hotkey_manager.dart';
 import 'package:flash_stick_notes/core/resources/size_manager.dart';
 import 'package:launch_at_startup/launch_at_startup.dart';
 import '../../app/common_widgets/preference_list/preference_list.dart';
-import '../../app/data/database/sqlite_database.dart';
 import '../../app/routes/app_pages.dart';
 import 'logic.dart';
 
@@ -87,9 +85,9 @@ class SettingPage extends StatelessWidget {
             ),
           ],
         ),
-        floatingActionButton: FloatingActionButton.small(
-            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => DriftDbViewer(Get.find<AppDataBase>())))),
+        // floatingActionButton: FloatingActionButton.small(
+        //     onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+        //         builder: (context) => DriftDbViewer(Get.find<AppDataBase>())))),
       );
     });
   }

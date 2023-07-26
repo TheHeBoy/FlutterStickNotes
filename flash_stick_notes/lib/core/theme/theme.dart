@@ -4,7 +4,6 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 import '../../app/data/database/sqlite_database.dart';
-import '../../features/setting/logic.dart';
 
 class AppTheme{
   final db = Get.find<AppDataBase>();

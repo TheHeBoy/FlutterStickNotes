@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:flash_stick_notes/app/data/app_storage.dart';
 import 'package:flash_stick_notes/app/data/database/sqlite_database.dart';
 import 'package:flash_stick_notes/features/setting/logic.dart';
 import 'package:hotkey_manager/hotkey_manager.dart';

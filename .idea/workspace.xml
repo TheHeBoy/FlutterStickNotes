@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="663009e0-b948-4831-9ad1-3f0495e18190" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FlutterStickNotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/fonts/MiSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/fonts/MiSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/fonts/MiSans-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/fonts/NotoSansSC-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/fonts/RobotoMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/images/goal.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/images/goal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/assets/images/website.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/common_widgets/custom_app_bar/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/common_widgets/custom_app_bar/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/common_widgets/preference_list/preference_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/common_widgets/preference_list/preference_list_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/common_widgets/preference_list/preference_list_section.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/constants/app_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/data/app_storage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/data/database/sqlite_database.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/data/database/sqlite_database.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/routes/app_pages.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/app/routes/app_routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/api/apphttp.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/hotkey/hotkey.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/localization/langs/ch.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/localization/langs/en.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/localization/local_keys.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/localization/messages.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/resources/assets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/resources/color_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/resources/font_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/resources/font_styles_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/resources/size_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/theme/theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/tray/traymenu.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/core/window/windowmanage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting/binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting_theme/binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting_theme/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting_theme/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting_tool_bar/binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting_tool_bar/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/setting_tool_bar/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/sticky_note_left_drawer/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/sticky_note_left_drawer/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/sticky_note_top_drawer/logic.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/sticky_note_top_drawer/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/toolbar_button/toolbar_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/features/sticky_note/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/my_application.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/linux/my_application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/Runner/Release.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/Runner.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/flutter_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/flutter_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/resources/app_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/win32_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flash_stick_notes/windows/runner/win32_window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/example/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/delegate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/delegate.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/editor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/editor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/raw_editor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/raw_editor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/text_selection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/text_selection.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/toolbar/enum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/lib/src/widgets/toolbar/enum.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/test/widgets/editor_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flash_stick_notes/package/flutter-quill/test/widgets/editor_test.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T4E5OK5w8XTGFv9r98igyO1IQb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "E:/Project/FlutterStickNotes/flash_stick_notes",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\FlutterStickNotes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="663009e0-b948-4831-9ad1-3f0495e18190" name="Changes" comment="" />
+      <created>1690293768602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690293768602</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/flash_stick_notes" />
+    </ignored-roots>
+  </component>
+</project>

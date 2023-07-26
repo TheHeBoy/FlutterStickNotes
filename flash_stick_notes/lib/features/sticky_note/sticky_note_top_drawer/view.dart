@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -56,26 +54,33 @@ class StickyNoteTopDrawerComponent extends StatelessWidget {
         children: [
           Expanded(
               child: InkWell(
-                child: Container(
-                  color: AppLightTheme.getColor(),
-                  child: const Center(child: Text('白间',style: TextStyle(color: Colors.black),),),
+            child: Container(
+              color: AppLightTheme.getColor(),
+              child: const Center(
+                child: Text(
+                  '白间',
+                  style: TextStyle(color: Colors.black),
                 ),
-                onTap: (){
-                  Get.changeTheme(AppLightTheme.themeData);
-                  Get.back();
-                },
-              )),
+              ),
+            ),
+            onTap: () {
+              Get.changeTheme(AppLightTheme.themeData);
+              Get.back();
+            },
+          )),
           Expanded(
               child: InkWell(
-                child: Container(
-                  color: AppDarkTheme.getColor(),
-                  child: const Center(child: Text('夜间'),),
-                ),
-                onTap: (){
-                  Get.changeTheme(AppDarkTheme.themeData);
-                  Get.back();
-                },
-              )),
+            child: Container(
+              color: AppDarkTheme.getColor(),
+              child: const Center(
+                child: Text('夜间'),
+              ),
+            ),
+            onTap: () {
+              Get.changeTheme(AppDarkTheme.themeData);
+              Get.back();
+            },
+          )),
         ],
       ),
     );

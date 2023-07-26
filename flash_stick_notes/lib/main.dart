@@ -3,7 +3,6 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flash_stick_notes/app/data/app_storage.dart';
-import 'package:flash_stick_notes/features/setting/logic.dart';
 import 'package:window_manager/window_manager.dart';
 import 'package:flash_stick_notes/core/hotkey/hotkey.dart';
 import 'package:flash_stick_notes/core/resources/size_manager.dart';
